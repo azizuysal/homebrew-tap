@@ -5,14 +5,14 @@
 class Simtool < Formula
   desc "Terminal UI for iOS Simulator management"
   homepage "https://github.com/azizuysal/simtool"
-  version "1.1.0"
+  version "1.1.1"
   license "MIT"
 
   depends_on "go" => :build
   depends_on :macos
 
-  url "https://github.com/azizuysal/simtool/releases/download/v1.1.0/simtool_1.1.0_darwin_all.tar.gz"
-  sha256 "866fd67f8349e691c1f9af3d64a43bf6ed82d5d207b14d2badc9deb6a81c8799"
+  url "https://github.com/azizuysal/simtool/releases/download/v1.1.1/simtool_1.1.1_darwin_all.tar.gz"
+  sha256 "9bff4e48f93b3555c21acad79e92634d2d00b0782148d13d2a4d6a1ffb12370c"
 
   define_method(:install) do
     bin.install "simtool"
